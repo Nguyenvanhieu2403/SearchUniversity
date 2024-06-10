@@ -1,0 +1,15 @@
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\bin\Debug\net8.0\SearchUniversity.Reponsitory.deps.json
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\bin\Debug\net8.0\SearchUniversity.Reponsitory.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\bin\Debug\net8.0\SearchUniversity.Reponsitory.pdb
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\bin\Debug\net8.0\SearchUniversity.DataContext.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\bin\Debug\net8.0\SearchUniversity.DataContext.pdb
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUn.068E5CE7.Up2Date
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\refint\SearchUniversity.Reponsitory.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.pdb
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\ref\SearchUniversity.Reponsitory.dll

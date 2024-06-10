@@ -1,0 +1,631 @@
+[
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AdmissionsMethodController",
+    "Method": "GetAllAdmissionsMethods",
+    "RelativePath": "api/AdmissionsMethod",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AdmissionsMethodController",
+    "Method": "AddAdmissionsMethod",
+    "RelativePath": "api/AdmissionsMethod/AddAdmissionsMethod",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admissionsMethod",
+        "Type": "SearchUniversity.DataContext.Models.AdmissionsMethod",
+        "IsRequired": true
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AdmissionsMethodController",
+    "Method": "DeleteAdmissionsMethod",
+    "RelativePath": "api/AdmissionsMethod/DeleteAdmissionsMethod",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AdmissionsMethodController",
+    "Method": "GetAdmissionsMethodById",
+    "RelativePath": "api/AdmissionsMethod/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AdmissionsMethodController",
+    "Method": "GetAdmissionsMethodByIdUniversity",
+    "RelativePath": "api/AdmissionsMethod/GetByIdUniversity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AdmissionsMethodController",
+    "Method": "UpdateAdmissionsMethod",
+    "RelativePath": "api/AdmissionsMethod/UpdateAdmissionsMethod",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admissionsMethod",
+        "Type": "SearchUniversity.DataContext.Models.AdmissionsMethod",
+        "IsRequired": true
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AreaController",
+    "Method": "GetAllAreas",
+    "RelativePath": "api/Area",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AreaController",
+    "Method": "AddArea",
+    "RelativePath": "api/Area/AddArea",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "area",
+        "Type": "SearchUniversity.DataContext.Models.Area",
+        "IsRequired": true
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AreaController",
+    "Method": "DeleteArea",
+    "RelativePath": "api/Area/DeleteArea",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AreaController",
+    "Method": "GetAreaById",
+    "RelativePath": "api/Area/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.AreaController",
+    "Method": "UpdateArea",
+    "RelativePath": "api/Area/UpdateArea",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "area",
+        "Type": "SearchUniversity.DataContext.Models.Area",
+        "IsRequired": true
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.DepartmentsController",
+    "Method": "GetAllAdmissionsMethods",
+    "RelativePath": "api/Departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.DepartmentsController",
+    "Method": "AddIDepartments",
+    "RelativePath": "api/Departments/AddDepartments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departments",
+        "Type": "SearchUniversity.DataContext.Models.Departments",
+        "IsRequired": true
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.DepartmentsController",
+    "Method": "DeleteAdmissionsMethod",
+    "RelativePath": "api/Departments/DeleteAdmissionsMethod",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.DepartmentsController",
+    "Method": "GetAdmissionsMethodById",
+    "RelativePath": "api/Departments/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.DepartmentsController",
+    "Method": "GetAdmissionsMethodByIdUniversity",
+    "RelativePath": "api/Departments/GetByIdUniversity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.DepartmentsController",
+    "Method": "UpdateAdmissionsMethod",
+    "RelativePath": "api/Departments/UpdateAdmissionsMethod",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departments",
+        "Type": "SearchUniversity.DataContext.Models.Departments",
+        "IsRequired": true
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.UniversityController",
+    "Method": "GetAllUniversity",
+    "RelativePath": "api/University",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.UniversityController",
+    "Method": "AddUniversity",
+    "RelativePath": "api/University/AddUniversity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "university",
+        "Type": "SearchUniversity.DataContext.Models.University",
+        "IsRequired": true
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.UniversityController",
+    "Method": "gethUniversityById",
+    "RelativePath": "api/University/gethUniversityById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.UniversityController",
+    "Method": "SearchUniversity",
+    "RelativePath": "api/University/SearchUniversity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.UsersController",
+    "Method": "SignIn",
+    "RelativePath": "api/Users/SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signInModel",
+        "Type": "SearchUniversity.DataContext.Models.SignInModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.Custommessage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.UsersController",
+    "Method": "SignUp",
+    "RelativePath": "api/Users/SignUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signUpModel",
+        "Type": "SearchUniversity.DataContext.Models.SignUpModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SearchUniversity.DataContext.Models.MethodResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SearchUniversity.Controller.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SearchUniversity.Controller.WeatherForecast, SearchUniversity.Controller, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

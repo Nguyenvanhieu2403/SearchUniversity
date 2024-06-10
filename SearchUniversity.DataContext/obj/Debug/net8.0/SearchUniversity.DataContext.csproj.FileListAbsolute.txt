@@ -1,0 +1,12 @@
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\bin\Debug\net8.0\SearchUniversity.DataContext.deps.json
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\bin\Debug\net8.0\SearchUniversity.DataContext.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\bin\Debug\net8.0\SearchUniversity.DataContext.pdb
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\refint\SearchUniversity.DataContext.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.pdb
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\ref\SearchUniversity.DataContext.dll
