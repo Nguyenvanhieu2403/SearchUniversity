@@ -11,6 +11,7 @@ namespace SearchUniversity.Reponsitory.Interfaces
     {
         public Task<string> AddAdmissionsMethodAsync(AdmissionsMethod admissionsMethod, string token);
         public Task<List<AdmissionsMethod>> GetAllAdmissionsMethodsAsync();
+        public Task<List<AdmissionsMethod>> GetAllAdmissionsMethodsAdminAsync();
         public Task<AdmissionsMethod> GetAdmissionsMethodByIdAsync(Guid Id);
         public Task<List<AdmissionsMethod>> GetAdmissionsMethodByIdUniversityAsync(Guid Id);
         public Task<string> UpdateAdmissionsMethodAsync(AdmissionsMethod admissionsMethod, string token);

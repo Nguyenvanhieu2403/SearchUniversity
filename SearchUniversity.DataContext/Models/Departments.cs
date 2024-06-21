@@ -14,9 +14,11 @@ namespace SearchUniversity.DataContext.Models
         public string AdmissionGroup { get; set; }
         public Decimal Tuition { get; set; }
         public Guid IdUniversity { get; set; }
+        public int SchoolYear { get; set; }
         public Guid CreateBy { get; set; }
         public DateTime CreateDate { get; set; }
         public Guid ModifiedBy { get; set; }
         public DateTime ModifiedDate { get; set; }
+        public string? NameUniversity { get; set; }
     }
 }

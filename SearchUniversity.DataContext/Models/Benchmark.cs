@@ -10,12 +10,27 @@ namespace SearchUniversity.DataContext.Models
     {
         public Guid Id { get; set; }
         public float Point { get; set; }
+        public int Year { get; set; }
         public Guid IdUniversity { get; set; }
-        public Guid IdDepartment { get; set; }
-        public Guid IdSchoolYear { get; set; }
+        public Guid IdDepartments { get; set; }
         public Guid CreateBy { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreateDate { get; set; }
         public Guid ModifiedBy { get; set; }
         public DateTime ModifiedDate { get; set; }
+    }
+
+    public class BenchmarkAdmin : Benchmark
+    {
+        public string NameUnivesity { get; set; }
+        public string NameDepartment { get; set; }
+    }
+
+    public class BenchmarkDisplay 
+    {
+        public Guid Id { get; set; }
+        public float Point1 { get; set; }
+        public float Point2 { get; set; }
+        public string Departments { get; set; }
+
     }
 }

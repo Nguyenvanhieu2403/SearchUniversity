@@ -49,3 +49,4 @@ C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchU
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Controller\bin\Debug\net8.0\SearchUniversity.Reponsitory.dll
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Controller\bin\Debug\net8.0\SearchUniversity.Reponsitory.pdb
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Controller\bin\Debug\net8.0\SearchUniversity.DataContext.pdb
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Controller\obj\Debug\net8.0\SearchUniversity.Controller.sourcelink.json

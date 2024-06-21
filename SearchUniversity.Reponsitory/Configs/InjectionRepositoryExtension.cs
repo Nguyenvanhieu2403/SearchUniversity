@@ -18,6 +18,7 @@ namespace SearchUniversity.Reponsitory.Configs
             services.AddScoped<IArea, AreaRepons>();
             services.AddScoped<IAdmissionsMethod, AdmissionxsMethodRepons>();
             services.AddScoped<IDepartments, DepartmentsRepons>();
+            services.AddScoped<IBenchmark, BenchmarkRepons>();
         }
     }
 }

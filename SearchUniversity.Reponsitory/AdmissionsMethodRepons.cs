@@ -9,6 +9,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dapper;
 
 namespace SearchUniversity.Reponsitory
 {
@@ -99,54 +100,54 @@ namespace SearchUniversity.Reponsitory
 
         public async Task<AdmissionsMethod> GetAdmissionsMethodByIdAsync(Guid Id)
         {
-                try
+            try
+            {
+                using var connect = _connectToSql.CreateConnection();
+                using SqlCommand command = new();
+                command.CommandType = CommandType.StoredProcedure;
+                command.CommandText = "GetAdmissionsMethodById";
+                command.Parameters.AddWithValue("@Id", Id);
+                command.Connection = (SqlConnection)connect;
+                connect.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                AdmissionsMethod admissionsMethod = new AdmissionsMethod();
+                while (reader.Read())
                 {
-                    using var connect = _connectToSql.CreateConnection();
-                    using SqlCommand command = new();
-                    command.CommandType = CommandType.StoredProcedure;
-                    command.CommandText = "GetAdmissionsMethodById";
-                    command.Parameters.AddWithValue("@Id", Id);
-                    command.Connection = (SqlConnection)connect;
-                    connect.Open();
-                    SqlDataReader reader = command.ExecuteReader();
-                    AdmissionsMethod admissionsMethod = new AdmissionsMethod();
-                    while (reader.Read())
+                    if (!reader.IsDBNull(0))
                     {
-                        if (!reader.IsDBNull(0))
-                        {
-                            admissionsMethod.Id = reader.GetGuid(0);
-                        }
-                        if (!reader.IsDBNull(1))
-                        {
-                            admissionsMethod.Name = reader.GetString(1);
-                        }
-                        if (!reader.IsDBNull(2))
-                        {
-                            admissionsMethod.IdUniversity = reader.GetGuid(2);
-                        }
-                        if (!reader.IsDBNull(3))
-                        {
-                            admissionsMethod.CreateBy = reader.GetGuid(3);
-                        }
-                        if (!reader.IsDBNull(4))
-                        {
-                            admissionsMethod.CreateDate = reader.GetDateTime(4);
-                        }
-                        if (!reader.IsDBNull(5))
-                        {
-                            admissionsMethod.ModifiedBy = reader.GetGuid(5);
-                        }
-                        if (!reader.IsDBNull(6))
-                        {
-                            admissionsMethod.ModifiedDate = reader.GetDateTime(6);
-                        }
+                        admissionsMethod.Id = reader.GetGuid(0);
                     }
-                    return admissionsMethod;
+                    if (!reader.IsDBNull(1))
+                    {
+                        admissionsMethod.Name = reader.GetString(1);
+                    }
+                    if (!reader.IsDBNull(2))
+                    {
+                        admissionsMethod.IdUniversity = reader.GetGuid(2);
+                    }
+                    if (!reader.IsDBNull(3))
+                    {
+                        admissionsMethod.CreateBy = reader.GetGuid(3);
+                    }
+                    if (!reader.IsDBNull(4))
+                    {
+                        admissionsMethod.CreateDate = reader.GetDateTime(4);
+                    }
+                    if (!reader.IsDBNull(5))
+                    {
+                        admissionsMethod.ModifiedBy = reader.GetGuid(5);
+                    }
+                    if (!reader.IsDBNull(6))
+                    {
+                        admissionsMethod.ModifiedDate = reader.GetDateTime(6);
+                    }
                 }
-                catch (Exception ex)
-                {
-                    throw new Exception(ex.Message);
-                }
+                return admissionsMethod;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
         public async Task<List<AdmissionsMethod>> GetAdmissionsMethodByIdUniversityAsync(Guid IdUniversity)
@@ -201,6 +202,22 @@ namespace SearchUniversity.Reponsitory
         {
             throw new Exception(ex.Message);
         }
+        }
+
+        public async Task<List<AdmissionsMethod>> GetAllAdmissionsMethodsAdminAsync()
+        {
+            try
+            {
+                using var connection = (SqlConnection)_connectToSql.CreateConnection();
+                await connection.OpenAsync();
+                var parameters = new DynamicParameters();
+                var result = await connection.QueryAsync<AdmissionsMethod>("GetAllBenchmarkForAdmin", parameters, commandType: CommandType.StoredProcedure);
+                return result.ToList();
+            }
+            catch
+            {
+                throw new Exception();
+            }
         }
 
         public Task<List<AdmissionsMethod>> GetAllAdmissionsMethodsAsync()

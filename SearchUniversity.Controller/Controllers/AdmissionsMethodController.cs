@@ -45,6 +45,17 @@ namespace SearchUniversity.Controller.Controllers
             return MethodResult.ResultWithSuccess(result, 200, "Successfull", 0);
         }
 
+        [HttpGet("Admin")]
+        public async Task<MethodResult> GetAdmissionsMethodsAdmin()
+        {
+            var result = await _admissionsMethod.GetAllAdmissionsMethodsAdminAsync();
+            if (result == null)
+            {
+                return MethodResult.ResultWithError(result, 400, "Error", 0);
+            }
+            return MethodResult.ResultWithSuccess(result, 200, "Successfull", 0);
+        }
+
         [HttpGet("GetById")]
         public async Task<MethodResult> GetAdmissionsMethodById(Guid Id)
         {

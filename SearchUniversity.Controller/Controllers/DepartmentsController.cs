@@ -35,7 +35,7 @@ namespace SearchUniversity.Controller.Controllers
         }
 
         [HttpGet]
-        public async Task<MethodResult> GetAllAdmissionsMethods()
+        public async Task<MethodResult> GetAllDepartmentss()
         {
             var result = await _departments.GetAllDepartmentssAsync();
             if (result == null)
@@ -46,7 +46,7 @@ namespace SearchUniversity.Controller.Controllers
         }
 
         [HttpGet("GetById")]
-        public async Task<MethodResult> GetAdmissionsMethodById(Guid Id)
+        public async Task<MethodResult> GetDepartmentsById(Guid Id)
         {
             var result = await _departments.GetDepartmentsByIdAsync(Id);
             if (result == null)
@@ -57,7 +57,7 @@ namespace SearchUniversity.Controller.Controllers
         }
 
         [HttpGet("GetByIdUniversity")]
-        public async Task<MethodResult> GetAdmissionsMethodByIdUniversity(Guid Id)
+        public async Task<MethodResult> GetDepartmentsByIdUniversity(Guid Id)
         {
             var result = await _departments.GetDepartmentsByIdUniversityAsync(Id);
             if (result == null)
@@ -68,7 +68,7 @@ namespace SearchUniversity.Controller.Controllers
         }
 
         [HttpPut("UpdateAdmissionsMethod")]
-        public async Task<MethodResult> UpdateAdmissionsMethod(Departments departments, string Token)
+        public async Task<MethodResult> UpdateDepartments(Departments departments, string Token)
         {
             var result = await _departments.UpdateDepartmentsAsync(departments, Token);
             if (result == "Sửa ngành học không thành công")
@@ -83,14 +83,36 @@ namespace SearchUniversity.Controller.Controllers
         }
 
         [HttpDelete("DeleteAdmissionsMethod")]
-        public async Task<MethodResult> DeleteAdmissionsMethod(Guid Id)
+        public async Task<MethodResult> DeleteDepartments(Guid Id)
         {
             var result = await _departments.DeleteDepartmentsAsync(Id);
-            if (result == "Xóa ngành học không thành công")
+            if (result == "Delete failed")
             {
                 return MethodResult.ResultWithError(result, 404, "Error", 0);
             }
             return MethodResult.ResultWithSuccess(result, 200, "Successfull", 0);
+        }
+
+        [HttpGet("OnlyName")]
+        public async Task<MethodResult> GetOnlyDepartment(Guid IdUniversity)
+        {
+            var result = await _departments.GetDepartmentssOnlyAsync(IdUniversity);
+            if(result == null)
+            {
+                return MethodResult.ResultWithError(result,404, "Error", 0);
+            }
+            return MethodResult.ResultWithSuccess(result, 200, "Success", 0);
+        }
+
+        [HttpGet("GetAllDepartmentMajor")]
+        public async Task<MethodResult> GetAllDepartmentMajor()
+        {
+            var result = await _departments.GetAllDepartmentMajorAsync();
+            if (result == null)
+            {
+                return MethodResult.ResultWithError(result, 404, "Error", 0);
+            }
+            return MethodResult.ResultWithSuccess(result, 200, "Success", 0);
         }
 
     }

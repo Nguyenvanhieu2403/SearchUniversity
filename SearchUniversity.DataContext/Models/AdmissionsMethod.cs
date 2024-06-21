@@ -15,6 +15,7 @@ namespace SearchUniversity.DataContext.Models
         public Guid ModifiedBy { get; set; }
         public DateTime ModifiedDate { get; set; }
         public Guid IdUniversity { get; set; }
+        public string? NameUniversity { get; set; }
 
     }
 }

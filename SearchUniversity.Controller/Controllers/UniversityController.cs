@@ -83,5 +83,63 @@ namespace SearchUniversity.Controller.Controllers
             }
         }
 
+        [HttpGet("SearchArea")]
+        public async Task<MethodResult> GetUniversityArea(Guid Id)
+        {
+            try
+            {
+                var result = await _universityRepons.GetUniversityArea(Id);
+                return MethodResult.ResultWithSuccess(result, 200, "Successfull", 0);
+            }
+            catch (Exception ex)
+            {
+                return MethodResult.ResultWithError(ex.Message, 400, "Error", 0);
+            }
+        }
+
+        [HttpDelete]
+        public async Task<MethodResult> DeleteAdmissionsMethod(Guid Id)
+        {
+            var result = await _universityRepons.DeleteUniversityAsync(Id);
+            if (result == "Xóa trường học không thành công")
+            {
+                return MethodResult.ResultWithError(result, 404, "Error", 0);
+            }
+            return MethodResult.ResultWithSuccess(result, 200, "Successfull", 0);
+        }
+
+        [HttpPut]
+        public async Task<MethodResult> UpdateArea(University university, string Token)
+        {
+            var result = await _universityRepons.UpdateUniversityAsync(university, Token);
+            if (result == "Trường này không tồn tại")
+            {
+                return MethodResult.ResultWithError(result, 404, "Error", 0);
+            }
+            if (result == "Token không hợp lệ")
+            {
+                return MethodResult.ResultWithError(result, 401, "Error", 0);
+            }
+            if (result == "Cập nhật trường thất bại")
+            {
+                return MethodResult.ResultWithError(result, 400, "Error", 0);
+            }
+            return MethodResult.ResultWithSuccess(result, 200, "Successfull", 0);
+        }
+
+        [HttpGet("SearchUniversityMajor")]
+        public async Task<MethodResult> SearchUniversityMajor(string search)
+        {
+            try
+            {
+                var result = await _universityRepons.SearchUniversityMajorAsync(search);
+                return MethodResult.ResultWithSuccess(result.Item1, 200, "Successfull", result.Item2);
+            }
+            catch (Exception ex)
+            {
+                return MethodResult.ResultWithError(ex.Message, 400, "Error", 0);
+            }
+        }
+
     }
 }

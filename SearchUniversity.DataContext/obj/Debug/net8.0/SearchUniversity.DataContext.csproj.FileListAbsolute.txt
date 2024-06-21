@@ -10,3 +10,4 @@ C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchU
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\refint\SearchUniversity.DataContext.dll
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.pdb
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\ref\SearchUniversity.DataContext.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.DataContext\obj\Debug\net8.0\SearchUniversity.DataContext.sourcelink.json

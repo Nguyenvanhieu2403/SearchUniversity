@@ -1,0 +1,578 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\phuonganh\\searchuniversity.controller\\searchuniversity.controller\\controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|solutionrelative:searchuniversity.controller\\controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\universityrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\universityrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\interfaces\\iuniversityrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\interfaces\\iuniversityrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.controller\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|solutionrelative:searchuniversity.controller\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\departmentsrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\departmentsrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\interfaces\\idepartments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\interfaces\\idepartments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\admissionsmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\admissionsmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\admissionsmethodrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\admissionsmethodrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.controller\\controllers\\admissionsmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|solutionrelative:searchuniversity.controller\\controllers\\admissionsmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\benchmarkrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\benchmarkrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\interfaces\\iadmissionsmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\interfaces\\iadmissionsmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\methodresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\methodresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.controller\\controllers\\benchmarkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|solutionrelative:searchuniversity.controller\\controllers\\benchmarkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\benchmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\benchmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\arearepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\arearepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.controller\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|solutionrelative:searchuniversity.controller\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\interfaces\\ibenchmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\interfaces\\ibenchmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\userrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\userrepons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\configs\\injectionrepositoryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\configs\\injectionrepositoryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.reponsitory\\interfaces\\iarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF72B343-FA14-45A6-AEE5-C17E48106327}|SearchUniversity.Reponsitory\\SearchUniversity.Reponsitory.csproj|solutionrelative:searchuniversity.reponsitory\\interfaces\\iarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|solutionrelative:searchuniversity.controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\schoolyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\schoolyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\models\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\models\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.controller\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|solutionrelative:searchuniversity.controller\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.controller\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C284EFE-009D-40C4-97EB-D5CDEC198285}|SearchUniversity.Controller\\SearchUniversity.Controller.csproj|solutionrelative:searchuniversity.controller\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\searchuniversity.datacontext\\connectsql\\connecttosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F83552-ADFB-4C3C-90A2-4C85885AA027}|SearchUniversity.DataContext\\SearchUniversity.DataContext.csproj|solutionrelative:searchuniversity.datacontext\\connectsql\\connecttosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUniversityRepons.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IUniversityRepons.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\Interfaces\\IUniversityRepons.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IUniversityRepons.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\Interfaces\\IUniversityRepons.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:46:56.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepartments.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IDepartments.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\Interfaces\\IDepartments.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IDepartments.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\Interfaces\\IDepartments.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:40:58.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentsRepons.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\DepartmentsRepons.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\DepartmentsRepons.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\DepartmentsRepons.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\DepartmentsRepons.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAmwGwAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:14:03.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Controller\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "SearchUniversity.Controller\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAQwHMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T06:38:52.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UniversityRepons.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\UniversityRepons.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\UniversityRepons.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\UniversityRepons.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\UniversityRepons.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAgwAgBAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:47:53.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UniversityController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\UniversityController.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Controller\\Controllers\\UniversityController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\UniversityController.cs",
+              "RelativeToolTip": "SearchUniversity.Controller\\Controllers\\UniversityController.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAwwHAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:49:29.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MethodResult.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\MethodResult.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\MethodResult.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\MethodResult.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\MethodResult.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwC8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:02:38.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdmissionsMethodController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\AdmissionsMethodController.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Controller\\Controllers\\AdmissionsMethodController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\AdmissionsMethodController.cs",
+              "RelativeToolTip": "SearchUniversity.Controller\\Controllers\\AdmissionsMethodController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:21:18.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BenchmarkRepons.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\BenchmarkRepons.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\BenchmarkRepons.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\BenchmarkRepons.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\BenchmarkRepons.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAUwHQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:03:00.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdmissionsMethodRepons.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\AdmissionsMethodRepons.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\AdmissionsMethodRepons.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\AdmissionsMethodRepons.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\AdmissionsMethodRepons.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAiwNIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:15:47.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdmissionsMethod.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\AdmissionsMethod.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\AdmissionsMethod.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\AdmissionsMethod.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\AdmissionsMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:13:41.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAdmissionsMethod.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IAdmissionsMethod.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\Interfaces\\IAdmissionsMethod.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IAdmissionsMethod.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\Interfaces\\IAdmissionsMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:14:44.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Benchmark.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\Benchmark.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\Benchmark.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\Benchmark.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\Benchmark.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wBgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:33:22.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BenchmarkController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\BenchmarkController.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Controller\\Controllers\\BenchmarkController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\BenchmarkController.cs",
+              "RelativeToolTip": "SearchUniversity.Controller\\Controllers\\BenchmarkController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA7wDIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:23:52.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AreaRepons.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\AreaRepons.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\AreaRepons.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\AreaRepons.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\AreaRepons.cs",
+              "ViewState": "AQIAANgAAAAAAAAAAAAowPQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:50:00.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AreaController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\AreaController.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Controller\\Controllers\\AreaController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\AreaController.cs",
+              "RelativeToolTip": "SearchUniversity.Controller\\Controllers\\AreaController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwEsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:54:46.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\Interfaces\\IUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:09:40.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Departments.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\Departments.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\Departments.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\Departments.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\Departments.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:33:37.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBenchmark.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IBenchmark.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\Interfaces\\IBenchmark.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IBenchmark.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\Interfaces\\IBenchmark.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:01:18.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepons.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\UserRepons.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\UserRepons.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\UserRepons.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\UserRepons.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAIwHIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:30:43.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InjectionRepositoryExtension.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Configs\\InjectionRepositoryExtension.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\Configs\\InjectionRepositoryExtension.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Configs\\InjectionRepositoryExtension.cs*",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\Configs\\InjectionRepositoryExtension.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:45:36.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\SignUpModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\SignUpModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:29:28.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IArea.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IArea.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Reponsitory\\Interfaces\\IArea.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Reponsitory\\Interfaces\\IArea.cs",
+              "RelativeToolTip": "SearchUniversity.Reponsitory\\Interfaces\\IArea.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:48:33.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "University.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\University.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\University.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\University.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\University.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:34:08.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\Area.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\Area.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\Area.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\Area.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:33:05.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Program.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Controller\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Program.cs",
+              "RelativeToolTip": "SearchUniversity.Controller\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:59:38.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SignInModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\SignInModel.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\SignInModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\SignInModel.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\SignInModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:27:53.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\User.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:10:54.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SchoolYear.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\SchoolYear.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\SchoolYear.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\SchoolYear.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\SchoolYear.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:33:53.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PasswordManager.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\PasswordManager.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\Models\\PasswordManager.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\Models\\PasswordManager.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\Models\\PasswordManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:10:29.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.Controller\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SearchUniversity.Controller\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:36:29.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\appsettings.json",
+              "RelativeDocumentMoniker": "SearchUniversity.Controller\\appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.Controller\\appsettings.json",
+              "RelativeToolTip": "SearchUniversity.Controller\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-09T17:15:11.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ConnectToSql.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\ConnectSql\\ConnectToSql.cs",
+              "RelativeDocumentMoniker": "SearchUniversity.DataContext\\ConnectSql\\ConnectToSql.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\PhuongAnh\\SearchUniversity.Controller\\SearchUniversity.DataContext\\ConnectSql\\ConnectToSql.cs",
+              "RelativeToolTip": "SearchUniversity.DataContext\\ConnectSql\\ConnectToSql.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:32:22.821Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

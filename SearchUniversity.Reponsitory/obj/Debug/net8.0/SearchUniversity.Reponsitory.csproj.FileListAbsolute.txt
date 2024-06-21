@@ -13,3 +13,4 @@ C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchU
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\refint\SearchUniversity.Reponsitory.dll
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.pdb
 C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\ref\SearchUniversity.Reponsitory.dll
+C:\Users\nguye\OneDrive\Máy tính\PhuongAnh\SearchUniversity.Controller\SearchUniversity.Reponsitory\obj\Debug\net8.0\SearchUniversity.Reponsitory.sourcelink.json
